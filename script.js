@@ -9,8 +9,10 @@
         response => response.json()
     ).then((html) => {
       // you can put any JS code here
-  
-      window.location.href = "https://softorg.framer.website/thank"
-    });
-  });
+let my_url = "https://softorg.framer.website/thank";
+window.onload = function (){ window.location.replace(my_url);
+  // body...
+}
+    } ) ;
+  } );
 </script>
