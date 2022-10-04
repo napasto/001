@@ -9,7 +9,7 @@
         response => response.json()
     ).then((html) => {
       // you can put any JS code here
-      setTimeout( 'location="https://yandex.ru";', 5000 );
+      setTimeout( 'location="https://softorg.framer.website/thank";', 5000 );
     });
   });
 </script>
