@@ -9,7 +9,7 @@
         response => response.json()
     ).then((html) => {
       // you can put any JS code here
-      alert('success')
+      setTimeout( 'location="https://yandex.ru";', 5000 );
     });
   });
 </script>
